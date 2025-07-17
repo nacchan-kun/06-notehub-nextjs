@@ -3,7 +3,7 @@
 import { FC } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'next/navigation';
-import { getNoteById } from '@/lib/api';
+import { getNoteById } from '@/app/lib/api';
 import css from './NoteDetails.module.css';
 
 const NoteDetailsClient: FC = () => {
