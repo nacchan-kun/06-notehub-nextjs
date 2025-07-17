@@ -1,4 +1,4 @@
-import css from './Footer.module.css';
+import css from '../css/Footer.module.css';
 
 const Footer = () => {
   return (
@@ -6,10 +6,10 @@ const Footer = () => {
       <div className={css.content}>
         <p>© {new Date().getFullYear()} NoteHub. All rights reserved.</p>
         <div className={css.wrap}>
-          <p>Developer: Bunbanto</p>
+          <p>Developer: Nacchan-kun</p>
           <p>
             Contact us:
-            <a href="mailto:bunbanto@gmail.com">bunbanto@gmail.com</a>
+            <a href="mailto:sendono.nc17@gmail.com">sendono.nc17@gmail.com</a>
           </p>
         </div>
       </div>
