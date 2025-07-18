@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { Note } from '../types/note';
 
 const KEY = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
-axios.defaults.baseURL = 'https://next-docs-api.onrender.com/notes';
+axios.defaults.baseURL = 'https://next-docs-api.onrender.com';
 
 axios.defaults.headers.common['Authorization'] = `Bearer ${KEY}`;
 axios.defaults.headers.common['Accept'] = 'application/json';
